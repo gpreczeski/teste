@@ -1,6 +1,8 @@
 from github import Github
 
-g=Github("9872b3b2fb662eaddaf41bab058c127ff50a59be");
+g=Github("c3f3c3b1b432d0496c9e3305ba647121da44156f");
 #repositories = list(g.get_repos())
 for repo in g.get_user().get_repos():
-    print repo.name
+    if(repo.name == "teste"):
+    	repositorie = repo
+print repo.
